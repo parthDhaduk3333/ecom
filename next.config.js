@@ -1,7 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  images: {
+    domains: ['ecomadmin.structureinfotech.com', 'localhost']
+  },
+  reactStrictMode: false,
   swcMinify: true,
 }
 
-module.exports = nextConfig
+module.exports = nextConfig;

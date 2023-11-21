@@ -1,0 +1,48 @@
+@media only screen and (max-width:768px) {
+    .main-banner {
+        height: 100%;
+        padding: 50px 0;
+        background-position: center right;
+    }
+    .nav-header {
+        position: fixed;
+        flex-direction: column;
+        background-color: #212529;
+        top: 0;
+        bottom: 0;
+        left: -100%;
+        width: 290px;
+        text-align: center;
+        padding: 90px 0 0 0;
+    }
+    .nav-menu {
+        display: block;
+    }
+    .view {
+        left: 0;
+    }
+    .close {
+        display: block;
+    }
+    .cart-extra {
+        display: none;
+    }
+    .eng {
+        display: none;
+    }
+    .glozmy {
+        font-size: 14px;
+    }
+    .watchCollection {
+        min-height: 210px;
+    }
+    .fashionCollection {
+        min-height: 210px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .heading-back {
+        display: none;
+    }
+}
